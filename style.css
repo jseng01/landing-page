@@ -41,6 +41,14 @@ a {
     flex-direction: column;
 }
 /* styles that appply to the first paragraph in the website */
+.button-one {
+    width: 75px;
+    height: 30px;
+    background-color: rgb(49, 82, 230);
+    color: white;
+    border-radius: 8px;
+}
+/* styles that apply to the first button in the website */
 img {
     width: 500px;
     margin-left: auto;
