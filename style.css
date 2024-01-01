@@ -5,7 +5,7 @@ body {
 /* styles that apply to the entire website */
 .first-section {
     display: flex;
-    background-color: rgb(0, 30, 70);
+    background-color: #1f2937;
     color: white;
     flex: 1 0 auto;
     flex-direction: column;
@@ -17,11 +17,14 @@ body {
     display: flex;
     flex: 1 0 0;
     align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 /* styles that apply to the header of the website */
 a {
     text-decoration: none;
-    color: rgb(194, 200, 206);
+    color: #e5e7eb;
 }
 /* styles that apply to all links */
 .links {
@@ -29,7 +32,7 @@ a {
     display: flex;
     gap: 20px;
     margin-left: auto;
-    font-size: 24px;
+    font-size: 18px;
 }
 /* stlyes that apply to links in the header */
 .body-one {
@@ -45,7 +48,9 @@ a {
 }
 /* styles that appply to the first paragraph in the website */
 .header-one{
-    font-size: 50px;
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
     margin: 0px;
 }
 /* styles that apply to the first subheading i the website */
@@ -66,8 +71,8 @@ img {
 }
 /* styles that apply to all images in the website */
 .subtext {
-    color: rgb(194, 200, 206);
-    font-size: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 /* styles that apply to elements with the subtext tag */
 /* these are the styles for the first section of the site */
