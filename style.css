@@ -5,7 +5,7 @@ body {
 /* styles that apply to the entire website */
 .first-section {
     display: flex;
-    background-color: rgb(0, 0, 78);
+    background-color: rgb(0, 30, 70);
     color: white;
     flex: 1 0 auto;
     flex-direction: column;
@@ -21,7 +21,7 @@ body {
 /* styles that apply to the header of the website */
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(194, 200, 206);
 }
 /* styles that apply to all links */
 .links {
@@ -33,23 +33,41 @@ a {
 }
 /* stlyes that apply to links in the header */
 .body-one {
+    margin-top: 100px;
     display: flex;
 }
 /* styles for the body of the first section of the website */
 .paragraph-one {
     display: flex;
+    flex: 1 0 50%;
     flex-direction: column;
+    padding-right: 100px;
 }
 /* styles that appply to the first paragraph in the website */
+.header-one{
+    font-size: 50px;
+    margin: 0px;
+}
+/* styles that apply to the first subheading i the website */
 .button-one {
-    width: 75px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     background-color: rgb(49, 82, 230);
     color: white;
     border-radius: 8px;
 }
 /* styles that apply to the first button in the website */
 img {
-    width: 500px;
+    width: 50%;
     margin-left: auto;
+    padding-bottom: 100px;
+    flex-basis: 50%;
+    overflow: hidden;
 }
+/* styles that apply to all images in the website */
+.subtext {
+    color: rgb(194, 200, 206);
+    font-size: 20px;
+}
+/* styles that apply to elements with the subtext tag */
+/* these are the styles for the first section of the site */
