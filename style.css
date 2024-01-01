@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
+/* styles that apply to the entire website */
 .first-section {
     display: flex;
     background-color: rgb(0, 0, 78);
