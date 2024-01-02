@@ -10,8 +10,8 @@ body {
     color: white;
     flex: 1 0 auto;
     flex-direction: column;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 /* styles that apply to the first section of the website */
 .header{
@@ -83,14 +83,14 @@ a {
     align-items: center;
     font-size: 36px;
     color: #1f2937;
-    font-weight: bolder;
+    font-weight: 900;
 }
 /* styles that apply to the header on the second section */
 .images{
     display: flex;
     justify-content: space-between;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 485px;
+    padding-right: 485px;
     gap: 75px;
 }
 /* styles that apply to the div that wraps around the word jpegs */
@@ -99,12 +99,14 @@ a {
     flex: 0 1 auto;
     flex-direction: column;
     overflow: hidden;
-    width: 25%;
+    width: auto;
 }
 /* styles that apply to the word jpegs */
 .subtext-two {
+
     color: #191b1f;
     font-size: 18px;
+    text-align: center;
 }
 /* styles that apply to elements with the subtext-two tag */
 /* these are all the styles that apply to the second section */
