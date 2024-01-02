@@ -110,3 +110,15 @@ a {
 }
 /* styles that apply to elements with the subtext-two tag */
 /* these are all the styles that apply to the second section */
+.quote-section{
+    background-color: #e5e7eb;
+}
+.quote-content{
+
+}
+.quote{
+
+}
+.quote-auth{
+    
+}
