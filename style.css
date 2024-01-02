@@ -114,6 +114,7 @@ a {
     background-color: #e5e7eb;
     display: flex;
 }
+/* styles for the entire quote section */
 .quote-content{
     display: flex;
     flex-direction: column;
@@ -122,14 +123,18 @@ a {
     padding-top: 150px;
     padding-bottom: 150px;
 }
+/* styles for the div that wraps around the quote and auth */
 .quote{
     display: flex;
     font-size: 36px;
     font-weight: 300;
 }
+/* styles for the quote */
 .quote-auth{
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
     font-weight: 700;
 }
+/* styles for the quotes author */
+/* these are all the style that apply to the quotes section */
