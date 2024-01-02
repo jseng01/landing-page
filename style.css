@@ -139,18 +139,45 @@ a {
 /* styles for the quotes author */
 /* these are all the style that apply to the quotes section */
 .act-sec {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* styles fot the entire call to action section */
 .act-con {
-
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    gap: 150px;
 }
 /* styles for the blue container around the content in the call to action section */
 .act-txt {
-
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 0px;
 }
 /* styles for the text within the blue container in the call to action section */
 .act-but {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 100px;
+    height: 45px;
+    border: solid white 2px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
 }
 /* styles for the button within the blue container withing the call to action section */
