@@ -181,3 +181,15 @@ a {
     font-size: 20px;
 }
 /* styles for the button within the blue container withing the call to action section */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+/* styles for the footer section */
+.footer-txt {
+color: white;
+margin: 45px;
+}
+/* stlyes for footer text */
